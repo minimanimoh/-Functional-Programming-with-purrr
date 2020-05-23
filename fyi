@@ -1,0 +1,40 @@
+We’ll use the following functions throughout this lesson:
+
+int_to_string(x)
+Covert a number into its string equivaluent.
+
+int_to_string(4)
+## [1] "four"
+gt(a, b)
+Returns TRUE if a is greater than b, otherwise returns FALSE.
+
+gt(3, 1)
+## [1] TRUE
+gt(2, 5)
+## [1] FALSE
+is_even(x)
+Returns TRUE is x is even, otherwise returns FALSE.
+
+is_even(34)
+## [1] TRUE
+is_even(55)
+## [1] FALSE
+square(x)
+Computes the square of x.
+
+square(4)
+## [1] 16
+add_talk(x, y)
+Adds x and y and produces a message about which numbers are being added.
+
+add_talk(5, 3)
+## x is 5
+## y is 3
+## [1] 8
+paste_talk(x, y)
+Concatenates the strings x and y and produces a message about which stirngs are being concatenated.
+
+paste_talk("red", "head")
+## x is red
+## y is head
+## [1] "redhead"
