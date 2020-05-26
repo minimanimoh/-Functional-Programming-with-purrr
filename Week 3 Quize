@@ -1,0 +1,109 @@
+Debugging and Profiling
+
+Question 1 
+
+Debugging is the process of 
+
+1. writing code that is as fast as possible
+2. handling errors in a nonstandard manner
+3. writing code that uses memory efficiently
+4. getting your expectations about code behavior to converge with reality
+
+Answer : 4
+
+
+Question 2
+Which of the following functions initiates an interactive debugging environment that allows you to step through code one expression at a time?
+
+1. stop()
+2. tryCatch()
+3. browser()
+4. try()
+
+Answer : 3
+
+
+Question 3
+Which of the following functions allows you to temporarily insert pieces of code into other functions to modify their behavior?
+
+1.browser()
+2. debug()
+3. trace()
+4. recover()
+
+Answer : 3
+
+
+Question 4
+What does the traceback() function do?
+
+1. evaluates an expression and returns on object of "try-error" if an error occurs
+2. pauses execution of a function
+3. sets the debugging flag for a function
+4. returns the state of the function call stack just before an occurred
+
+Answer : 3
+
+
+Question 5
+When should the traceback() function be called?
+
+1. immediately after a warning occurs.
+2. any time after an error occurs
+3. only while debugging inside a function
+4. immediately after an error occurs
+
+Answer : 4
+
+
+Question 6
+What does calling trace("f") for function "f()" do?
+
+1. It generates a log file containing debugging information.
+2. Whenever f() is called, the function call stack is written to a file.
+3. Whenever f() is called, it will enter the interactive debugger.
+4. Whenever f() is called, a message is printed to the console indicating that the function was called.
+
+Answer : 3
+
+
+Question 7
+What is the microbenchmark package useful for?
+
+1. modifying code in other developers' packages
+2. interactively debugging functions
+3. handling warnings and errors in non-standard ways
+4. comparing the speed of several functions that do the same thing
+
+Answer : 4
+
+
+Question 8
+What does the RProf() function do?
+
+1. analyzes your code for potential bugs
+2. re-formats your code to adhere to standards
+3. visualizes the time behavior of R code
+4. writes out the function call stack at user-specified intervals of time
+
+Answer : 3
+
+
+Question 9
+What does the profvis() function do?
+
+1. prints debugging information to the console
+2. displays profiling information in an interactive visualization in RStudio
+3. visualizes code that runs quickly (in less than 10 milliseconds)
+4. writes a log file of the function call stack
+
+Answer : 2
+
+
+Question 10
+Which function is better for analyzing fast-running functions: profvis() or microbenchmark()?
+
+1. microbenchmark()
+2. profvis()
+
+Answer : 2
